@@ -7,6 +7,9 @@ import appStore from './Images/appStore.webp';
 import googlePlay from './Images/googlePlay.png';
 import teamViewer from './Images/teamViewer.png';
 import anyDesk from './Images/anyDesk.png';
+import WhatsApp from './Images/WhatsApp.png';
+import Phone from './Images/Phone.png';
+import mail from './Images/mail.png';
 
 import './App.css';
 
@@ -201,14 +204,15 @@ function App() {
       אנו דוגלים בשירות מענה אנושי ישיר ומקצועי ללא המתנה, כתבו לנו הודעה ונשוב אליכם בתוך דקות!
       </p>
       <div class="contact-icons">
-      <a href="tel:0733988211" class="contact-icon">
-        <i class="fas fa-phone"></i>
+      <a href="tel:0733988211">
+        <img src={Phone} alt="Logo" />
       </a>
-      <a href="https://wa.me/972733988211" class="contact-icon">
-        <i class="fab fa-whatsapp"></i>
+      <a href="https://wa.me/972733988211">
+        <img src={WhatsApp} alt="Logo" />
+
       </a>
-      <a href="mailto:office@k-telecom.co.il" class="contact-icon">
-        <i class="far fa-envelope"></i>
+      <a href="mailto:office@k-telecom.co.il">
+        <img src={mail} alt="Logo" />
       </a>
     </div>
   </section>
