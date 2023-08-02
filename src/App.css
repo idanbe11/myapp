@@ -40,7 +40,7 @@ body {
 
 /* אודות Section */
 #about {
-  background-color: #f2f2f2;
+  background-color: #ffffff;
   padding: 2rem;
   text-align: center; 
 
@@ -76,7 +76,7 @@ body {
 
 /* למה דווקא אנחנו Section */
 #whyus {
-  background-color: #f9f9f9;
+  background-color: #ffffff;
   padding: 2rem;
   text-align: center;
 }
@@ -119,7 +119,7 @@ body {
   padding: 2rem;
   display: flex;
   justify-content: center;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
   margin-top: 7%;
 }
 
@@ -174,7 +174,7 @@ body {
 /* Downloads Section */
 #downloads {
   padding: 2rem;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
   margin-top: 7%;
 }
 
@@ -217,7 +217,7 @@ body {
 /* Remote Control Section */
 #remote-control {
   padding: 2rem;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
   margin-top: 7%;
 }
 
@@ -287,13 +287,11 @@ body {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-/* Add styles for the "שירות ותמיכה" section */
+
 #contact {
-  background-color: #f2f2f2;
+  background-color: #ffffff;
   padding: 2rem;
   text-align: center;
-  direction: rtl;
-  margin-top: 7%;
 }
 
 .section-title {
@@ -308,19 +306,14 @@ body {
   color: #12101d;
 }
 
-.section-contact {
-  font-size: 1.2rem;
-  color: #12101d;
+.contact-icons {
   margin-top: 2rem;
 }
 
-.section-contact br {
-  display: none; /* Hide line breaks on larger screens */
+.contact-icon {
+  font-size: 2rem;
+  color: #12101d;
+  margin: 0 1rem;
 }
 
-/* Media query for larger screens */
-@media screen and (min-width: 768px) {
-  .section-contact br {
-    display: inline; /* Display line breaks on larger screens */
-  }
-}
+/* Add more styles as needed for icon spacing and hover effects */

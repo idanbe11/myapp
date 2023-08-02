@@ -196,18 +196,21 @@ function App() {
       </a>
     </div></div>
     <section id="contact">
-    <h2 class="section-title">שירות ותמיכה</h2>
-    <p class="section-description">
-      אנו דוגלים בשירות מענה אנושי ישיר ומקצועי ללא המתנה, כתבו לנו הודעת WhatsApp ונשוב אליכם בתוך דקות!
-    </p>
-    <p class="section-contact">
-      אנו זמינים בשלל פלטפורמות לנוחות מקסימלית<br />
-      0733-988-211 – גם בשיחת טלפון וגם בWhatsApp!<br />
-      במייל - OFFICE@K-TELECOM.CO.IL<br />
-      באתר - WWW.K-TELECOM.CO.IL<br />
-      בפאנל השליטה של המרכזיה<br />
-      במידת הצורך הטכנאים שלנו יעלו מולכם בשליטה מרחוק על המחשב האישי
-    </p>
+      <h2 class="section-title">שירות ותמיכה</h2>
+      <p class="section-description">
+      אנו דוגלים בשירות מענה אנושי ישיר ומקצועי ללא המתנה, כתבו לנו הודעה ונשוב אליכם בתוך דקות!
+      </p>
+      <div class="contact-icons">
+      <a href="tel:0733988211" class="contact-icon">
+        <i class="fas fa-phone"></i>
+      </a>
+      <a href="https://wa.me/972733988211" class="contact-icon">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      <a href="mailto:office@k-telecom.co.il" class="contact-icon">
+        <i class="far fa-envelope"></i>
+      </a>
+    </div>
   </section>
 
     </div>
