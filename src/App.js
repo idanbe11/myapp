@@ -95,7 +95,7 @@ function App() {
       <section id="services">
         <div className="container">
           <div className="image-column">
-            <img src={icon1} alt="Image" />
+            <img src={icon1} alt="Logo" />
           </div>
           <div className="text-row">
           <p className="text">
@@ -146,9 +146,46 @@ function App() {
       </div>
   </section>
 
-      <section id="downloads">
-        {/* Your "הורדות" section content here */}
-      </section>
+  <section id="downloads">
+    <h2 class="downloads-title">הורדות</h2>
+    <div class="downloads-cards-container">
+      <div class="downloads-card">
+      <img src={icon1} alt="Logo" />
+        <p class="downloads-card-description">תיאום תורים אוטומטי</p>
+      </div>
+
+      <div class="downloads-card">
+      <img src={icon3} alt="Logo" />
+        <p class="downloads-card-description">שיחות ישירות לטלפון</p>
+      </div>
+      
+    </div>
+  </section>
+  <section id="remote-control">
+      <h2 class="remote-control-title">תוכנות שליטה מרחוק</h2>
+      <div class="remote-control-cards-container">
+        <div class="remote-control-card">
+        <img src={icon1} alt="Logo" />
+
+          <p class="remote-control-card-description">תמונה 5</p>
+        </div>
+        <div class="remote-control-card">
+        <img src={icon1} alt="Logo" />
+
+          <p class="remote-control-card-description">תמונה 6</p>
+        </div>
+        <div class="remote-control-card">
+        <img src={icon1} alt="Logo" />
+
+          <p class="remote-control-card-description">תמונה 7</p>
+        </div>
+        <div class="remote-control-card">
+        <img src={icon1} alt="Logo" />
+
+          <p class="remote-control-card-description">תמונה 8</p>
+        </div>
+      </div>
+    </section>
 
       <section id="contact">
         {/* Your "יצירת קשר" section content here */}

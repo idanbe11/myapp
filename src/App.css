@@ -164,3 +164,90 @@ body {
   margin-right: 2rem; 
   color: green; 
 }
+/* ... (your existing CSS code) */
+
+/* Downloads Section */
+#downloads {
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.downloads-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #12101d;
+  text-align: center;
+}
+
+.downloads-cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.downloads-card {
+  width: calc(23% - 2rem); /* Adjust the width and gap between cards as needed */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.downloads-card img {
+  width: 60%; /* Adjust the size of the image as needed */
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.downloads-card-description {
+  margin-top: -15%;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #12101d;
+}
+
+/* Remote Control Section */
+#remote-control {
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.remote-control-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #12101d;
+  text-align: center;
+}
+
+.remote-control-cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.remote-control-card {
+  width: calc(23% - 2rem); /* Adjust the width and gap between cards as needed */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.remote-control-card img {
+  width: 60%; /* Adjust the size of the image as needed */
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.remote-control-card-description {
+  margin-top: -15%;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #12101d;
+}
+
+/* ... (rest of your CSS code) */
