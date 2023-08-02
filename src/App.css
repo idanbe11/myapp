@@ -3,7 +3,11 @@ body {
   margin: 0;
   padding: 0;
 }
-
+.page-container {
+  max-width: 1200px; /* Adjust the max-width value as needed */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 0 1rem; /* Optional: Add padding to the sides of the container */
+}
 .navbar {
   background-color: #12101D;
   color: white;
@@ -197,7 +201,7 @@ body {
 .downloads-card img {
   width: 60%; /* Adjust the size of the image as needed */
   height: auto;
-  border: 1px solid #ccc;
+  border: 1px solid transparent;
   border-radius: 5px;
 }
 
@@ -219,35 +223,98 @@ body {
   margin-bottom: 2rem;
   color: #12101d;
   text-align: center;
+  
 }
 
 .remote-control-cards-container {
   display: flex;
   justify-content: center;
   gap: 1.5rem;
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
+  margin-top: 3rem; 
 }
 
 .remote-control-card {
   width: calc(23% - 2rem); /* Adjust the width and gap between cards as needed */
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 1.5rem;
-  text-align: center;
+  padding: 0.4rem;
 }
 
 .remote-control-card img {
-  width: 60%; /* Adjust the size of the image as needed */
+  width: 100%; /* Adjust the size of the image as needed */
   height: auto;
-  border: 1px solid #ccc;
-  border-radius: 5px;
 }
 
-.remote-control-card-description {
-  margin-top: -15%;
-  font-size: 1.3rem;
-  font-weight: 700;
+
+/* Mobile Apps Section */
+.mobile-apps {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.mobile-apps__title {
+  font-size: 2rem;
   color: #12101d;
 }
 
-/* ... (rest of your CSS code) */
+.mobile-apps__buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 3rem; 
+
+}
+
+.mobile-apps__button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.mobile-apps__button img {
+  width: 250px;
+  height: auto;
+}
+.mobile-apps__button--android img {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.mobile-apps__button--apple img {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* Add styles for the "שירות ותמיכה" section */
+#contact {
+  background-color: #f2f2f2;
+  padding: 2rem;
+  text-align: center;
+  direction: rtl;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #12101d;
+}
+
+.section-description {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #12101d;
+}
+
+.section-contact {
+  font-size: 1.2rem;
+  color: #12101d;
+  margin-top: 2rem;
+}
+
+.section-contact br {
+  display: none; /* Hide line breaks on larger screens */
+}
+
+/* Media query for larger screens */
+@media screen and (min-width: 768px) {
+  .section-contact br {
+    display: inline; /* Display line breaks on larger screens */
+  }
+}

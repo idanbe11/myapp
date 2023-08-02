@@ -3,6 +3,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
 import icon1 from './Images/icon1.png';
 import icon3 from './Images/Icon3.png';
+import appStore from './Images/appStore.webp';
+import googlePlay from './Images/googlePlay.png';
+import teamViewer from './Images/teamViewer.png';
+import anyDesk from './Images/anyDesk.png';
 
 import './App.css';
 
@@ -25,6 +29,7 @@ function App() {
       </nav>
 
       {/* Sections */}
+      <div class="page-container">
       <section id="about">
         <h2 className="section-title">כל שירותי התקשורת לעסק במקום אחד</h2>
         <p className="section-description">
@@ -150,12 +155,16 @@ function App() {
     <h2 class="downloads-title">הורדות</h2>
     <div class="downloads-cards-container">
       <div class="downloads-card">
-      <img src={icon1} alt="Logo" />
+      <a href="https://www.microsip.org/download/MicroSIP-Lite-3.21.3.exe" download>
+        <img src={icon1} alt="Logo" />
+      </a>
         <p class="downloads-card-description">תיאום תורים אוטומטי</p>
       </div>
 
       <div class="downloads-card">
+      <a href="https://panel.bluebe.net/login">
       <img src={icon3} alt="Logo" />
+      </a>
         <p class="downloads-card-description">שיחות ישירות לטלפון</p>
       </div>
       
@@ -165,31 +174,43 @@ function App() {
       <h2 class="remote-control-title">תוכנות שליטה מרחוק</h2>
       <div class="remote-control-cards-container">
         <div class="remote-control-card">
-        <img src={icon1} alt="Logo" />
-
-          <p class="remote-control-card-description">תמונה 5</p>
+        <a href="https://150.co.il/teamviewer/">
+          <img src={teamViewer} alt="Logo" />
+        </a>
         </div>
         <div class="remote-control-card">
-        <img src={icon1} alt="Logo" />
-
-          <p class="remote-control-card-description">תמונה 6</p>
-        </div>
-        <div class="remote-control-card">
-        <img src={icon1} alt="Logo" />
-
-          <p class="remote-control-card-description">תמונה 7</p>
-        </div>
-        <div class="remote-control-card">
-        <img src={icon1} alt="Logo" />
-
-          <p class="remote-control-card-description">תמונה 8</p>
+        <a href="https://anydesk.com/en/downloads/windows">
+          <img src={anyDesk} alt="Logo" />
+        </a>
         </div>
       </div>
     </section>
+    <div class="mobile-apps">
+    <h3 class="mobile-apps__title">אפליקציות</h3>
+    <div class="mobile-apps__buttons">
+      <a href="/" class="mobile-apps__button mobile-apps__button--android">
+      <img src={appStore} alt="Logo" />
+      </a>
+      <a href="/" class="mobile-apps__button mobile-apps__button--apple">
+      <img src={googlePlay} alt="Logo" />
+      </a>
+    </div></div>
+    <section id="contact">
+    <h2 class="section-title">שירות ותמיכה</h2>
+    <p class="section-description">
+      אנו דוגלים בשירות מענה אנושי ישיר ומקצועי ללא המתנה, כתבו לנו הודעת WhatsApp ונשוב אליכם בתוך דקות!
+    </p>
+    <p class="section-contact">
+      אנו זמינים בשלל פלטפורמות לנוחות מקסימלית<br />
+      0733-988-211 – גם בשיחת טלפון וגם בWhatsApp!<br />
+      במייל - OFFICE@K-TELECOM.CO.IL<br />
+      באתר - WWW.K-TELECOM.CO.IL<br />
+      בפאנל השליטה של המרכזיה<br />
+      במידת הצורך הטכנאים שלנו יעלו מולכם בשליטה מרחוק על המחשב האישי
+    </p>
+  </section>
 
-      <section id="contact">
-        {/* Your "יצירת קשר" section content here */}
-      </section>
+    </div>
     </div>
   );
 }
