@@ -291,7 +291,8 @@ body {
 #contact {
   background-color: #ffffff;
   padding: 2rem;
-  text-align: center;
+  text-align: center;  
+  margin-top: 7%;
 }
 
 .section-title {
