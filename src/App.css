@@ -318,3 +318,80 @@ body {
 
 
 /* Add more styles as needed for icon spacing and hover effects */
+
+/* Add styles for the different sections as per your requirements */
+/* ... (previous CSS styles) */
+
+/* Add a media query for smaller screens (e.g., tablets and phones) */
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar__links {
+    margin-top: 1rem;
+    flex-direction: column;
+  }
+
+  .navbar__links li {
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  /* Adjust other styles for smaller screens */
+  /* ... (add responsive styles for other sections as needed) */
+
+  .container {
+    padding: 0 1rem;
+  }
+
+  .card {
+    width: calc(33% - 1rem); /* 2 cards per row for smaller screens */
+  }
+
+  .downloads-card {
+    width: calc(50% - 1rem); /* 2 cards per row for smaller screens */
+  }
+
+  .remote-control-card {
+    width: calc(50% - 1rem); /* 2 cards per row for smaller screens */
+  }
+
+  .mobile-apps__button img {
+    width: 150px; /* Adjust button image size for smaller screens */
+  }
+}
+
+/* Add a media query for even smaller screens (e.g., phones) */
+@media screen and (max-width: 480px) {
+  .section-title {
+    font-size: 1.6rem; /* Adjust section titles for smaller screens */
+  }
+
+  .section-description {
+    font-size: 1rem; /* Adjust section descriptions for smaller screens */
+  }
+
+  .card {
+    width: 25%; /* 1 card per row for the smallest screens */
+  }
+
+  .downloads-card {
+    width: 100%; /* 1 card per row for the smallest screens */
+  }
+
+  .remote-control-card {
+    width: 100%; /* 1 card per row for the smallest screens */
+  }
+
+  .mobile-apps__button img {
+    width: 120px; /* Adjust button image size for the smallest screens */
+  }
+
+  .contact-icons img {
+    width: 10%; /* Adjust icon size for smaller screens */
+  }
+}
+
+/* ... (your existing CSS code) */
