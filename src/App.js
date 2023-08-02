@@ -7,7 +7,7 @@ import appStore from './Images/appStore.webp';
 import googlePlay from './Images/googlePlay.png';
 import teamViewer from './Images/teamViewer.png';
 import anyDesk from './Images/anyDesk.png';
-import WhatsApp from './Images/WhatsApp.png';
+import WhatsApp from './Images/WhatsApp.webp';
 import Phone from './Images/Phone.png';
 import mail from './Images/mail.png';
 
